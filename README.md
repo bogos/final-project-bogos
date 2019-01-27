@@ -43,6 +43,16 @@ all tests must pass correctly
 
 Why do I test in ganache and not in my private network? The truth is that I did not reach the time :(, but everything works OK
 
+# Interact with the Dapp
+
+* First you need to create 2 Teams with differents name -> this give you two address
+* Then, especify the comission (try always 10 is better) the other inputs are not important
+* Put the teams addresses on the Team inputs and save.
+
+* Send Ethers from metamask accounts (dont forget you need to stay in the private network) to the team addresses
+* Select a winner to finish the game
+* The bets are distributed proportionally among the winners.
+
 # Metamask guide
 
 ## Select Network
