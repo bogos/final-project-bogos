@@ -1,35 +1,65 @@
-Node
-http://51.140.141.202:8545/
 
-Game Manager Private Key: 3D4A53A61CDCF5C8FAB640DB91F42A5A8E3E739EFD617F3B2CF1DDBA26E934B7
+# KEEP CALM AND BET TO WIN
+
+This is a betting application with ethers.
+With this application you can create teams and simple games rooms and make bets to the team you want. Once the game is over. The administrator selects the winner and closes the game. When the game closes, the accumulated pits are shared among the winners in proportion to their initial bet. The administrator keeps a commission of the game (this commission is editable according to the game).
+
+
+## Requirements
+
+Truffle v5.0.2 (core: 5.0.2)
+
+Solidity v0.4.24 (solc-js)
+
+Ganache CLI or GUI (test)
+
+Conection to a private node (interact with dapp)
+
+Node v10.15.0 +
+
+```
+    Game Managaker PK, just for privileges
+```
+
+## Use
+* Point metamask to a private node that I raised (just for fun) the address of the node is: http://51.140.141.202:8545/
+
+* Import the private key (it is the administrator account) to be able to have absolute control over the dapp. The Pk to import in metamask is: ```3D4A53A61CDCF5C8FAB640DB91F42A5A8E3E739EFD617F3B2CF1DDBA26E934B7```
+
+* Download the solution
+```
+$ npm install
+$ npm run start
+```
+
+* Run the unit test, placed in the folder with the solution
+```
+$ ganache-cli
+$ truffle migrate --reset
+$ truffle test
+```
+
+all tests must pass correctly
+
+Why do I test in ganache and not in my private network? The truth is that I did not reach the time :(, but everything works OK
 
 # Metamask guide
 
 ## Select Network
 1. Press "Network Dropdown"
-![image.png](/.attachments/image-38e98f29-844c-48ad-9f00-fe420a75d243.png)
 
 2. Select Custom RPC
-![image.png](/.attachments/image-c3044d05-83bc-4398-9795-1a430ff40de4.png)
 
 3.  Insert the RPC URL and Click on "SAVE"
 http://51.140.141.202:8545
-![image.png](/.attachments/image-52dfe495-caa3-499a-8c9b-01332e434f19.png)
-
-4. If the client is running, you will see the next option with a check
-![image.png](/.attachments/image-b254edc0-4777-40c9-997f-39f32a6f1518.png)
 
 
 ## Import Metamask Accounts
 
 1. Select "My Accounts Icon" and "Import Account"
-![image.png](/.attachments/image-98e35847-5de6-4081-b039-659cd79acb57.png)
 
 2. In the import tab:
 Select type "Private Key"
-Paste one of the 6 private key listed bellow
+Paste the private key listed bellow
 Click "Import Button"
-Done!
-![image.png](/.attachments/image-af569931-20b0-4f79-9255-d090d81d0eb8.png)
-```
 
