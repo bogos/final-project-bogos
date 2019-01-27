@@ -9,8 +9,10 @@ const teamDetails = (props) => {
                 <div className="header">Team 1</div>
 
                 <div className="form-group">
-                    <label htmlFor="name1">Name</label>
+                    <label htmlFor="name1">Address Team</label>
                     <input onChange={props.gameDetailsHandler} name="name1" id="name1" className="form-control" required="" type="text"/>
+                    <span>Copy the address of the teams here</span>
+
                 </div>
 
                 <div className="form-group">
@@ -39,8 +41,9 @@ const teamDetails = (props) => {
                 <div className="header">Team 2</div>
 
                 <div className="form-group">
-                    <label htmlFor="name2">Name</label>
+                    <label htmlFor="name2">Address Team</label>
                     <input onChange={props.gameDetailsHandler} name="name2" id="name2" className="form-control" required="" type="text"/>
+                    <span>Copy the address of the teams here</span>
                 </div>
 
                 <div className="form-group">
