@@ -22,7 +22,7 @@ Node v10.15.0 +
 ```
 
 ## Use
-* Point metamask to a private node that I raised (just for fun) the address of the node is: http://51.140.141.202:8545/
+* Point metamask to a private node that I raised (just for fun) the address of the node is (PLEASE DONT KILL THE NODE :( ): http://51.140.141.202:8545/
 
 * Import the private key (it is the administrator account) to be able to have absolute control over the dapp. The Pk to import in metamask is: ```3D4A53A61CDCF5C8FAB640DB91F42A5A8E3E739EFD617F3B2CF1DDBA26E934B7```
 

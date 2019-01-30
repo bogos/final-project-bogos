@@ -24,7 +24,7 @@ class App extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			gameManagerAddress : "0x3dcc8114a03cc87f9dd93e0a405385fe89d1f88c",
+			gameManagerAddress : "0x6c2d33632f0740fa55f5c06fdc733e82fc4c76b1",
 			activeMatches: [],
 			teamDictAddressName: [],
 
